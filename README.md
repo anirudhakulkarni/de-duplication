@@ -127,6 +127,18 @@ fn main() {
 }
 ```
 
+A more comprehensive use can be done by wrapping the entire thing in a struct:
+
+Refer to 
+[dedup.rs](
+    https://github.com/anirudhakulkarni/Live-Snapshot/blob/main/src/vmm/src/dedup.rs
+)
+to create the struct. Then refer to
+[lib.rs](
+    https://github.com/anirudhakulkarni/Live-Snapshot/blob/main/src/vmm/src/lib.rs
+) to see how the functions are used.
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
