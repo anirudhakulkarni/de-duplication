@@ -3,3 +3,5 @@ chunks
 *.txt
 *.jpeg
 *.lock
+/database
+*mem

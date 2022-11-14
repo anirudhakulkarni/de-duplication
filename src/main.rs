@@ -13,13 +13,13 @@ use sha2::{Sha256, Digest};
 const CHUNK_SIZE: usize = 1024 *1024;
 
 // constants: database path, state path, map1 path, map2 path
-const DATABASE_PATH: &str = "~/database/";
+const DATABASE_PATH: &str = "database/";
 // state path is database path + state
-const STATE_PATH: &str = "~/database/state";
+const STATE_PATH: &str = "database/state";
 // map1 path is database path + map1
-const MAP1_PATH: &str = "~/database/map1";
+const MAP1_PATH: &str = "database/map1";
 // map2 path is database path + map2
-const MAP2_PATH: &str = "~/database/map2";
+const MAP2_PATH: &str = "database/map2";
 
 
 //get hash of an vector (input type is Vec<u8>)
