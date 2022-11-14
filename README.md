@@ -1,5 +1,6 @@
 <div align="center">
  <!-- #readme-top -->
+ 
  <a name="readme-top"></a>
 <h1 align="center">De-duplication Library</h1>
   <p align="center">
@@ -10,12 +11,13 @@
     <br />
     <a href="https://github.com/github_username/repo_name">View Demo</a>
     · -->
+    
     <a href="https://github.com/anirudhakulkarni/de-duplication/issues">Report Bug</a>
     
   </p>
 </div>
 
-
+[![crates.io](https://img.shields.io/crates/v/deduplication.svg)](https://crates.io/crates/deduplication)
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -44,6 +46,8 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+
+<!-- crates.io badge -->
 
 It all started with a DropBox observation. Link to the [comment](http://paranoia.dubfire.net/2011/04/how-dropbox-sacrifices-user-privacy-for.html?showComment=1302661727678). Some users experienced a lot less time when uploading files to DropBox. This was because DropBox was able to detect duplicate files and only uploaded the new file. The schema can be seen below.
 
@@ -97,6 +101,11 @@ Install rust from [here](https://www.rust-lang.org/tools/install)
    ```sh
     cargo build
     ```
+
+You may also find the library on [crates.io](https://crates.io/crates/deduplication)
+```sh
+cargo add deduplication
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
