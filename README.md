@@ -11,7 +11,6 @@
     <br />
     <a href="https://github.com/github_username/repo_name">View Demo</a>
     · -->
-    
     <a href="https://github.com/anirudhakulkarni/de-duplication/issues">Report Bug</a>
     
   </p>
