@@ -1,6 +1,7 @@
 <div align="center">
+ <!-- #readme-top -->
+ <a name="readme-top"></a>
 <h1 align="center">De-duplication Library</h1>
-
   <p align="center">
     A generic de-duplication library in rust to save storage efficiently. 
     <br />
@@ -198,7 +199,10 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See 
+[`LICENSE`](
+    LICENSE
+) for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
